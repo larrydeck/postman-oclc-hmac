@@ -1,6 +1,6 @@
 // Postman pre-request script to generate OCLC HMAC signature and authorization header
 // Sets Postman environment variable "authheader" to authorization header with HMAC sig
-// Copy-pasted this script into Pre-request Script area for request or (better) for colleciton
+// Copy-paste this script into Pre-request Script area for request or (better) for colleciton
 // Then set request header "Authorization" to {{authheader}}
 
 // Adapted from https://github.com/OCLC-Developer-Network/oclc-auth-node

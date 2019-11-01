@@ -17,7 +17,6 @@ const key = pm.environment.get("WSKEY");
 const secret = pm.environment.get("secret");
 const principalID = pm.environment.get("principalID");
 const principalIDNS = pm.environment.get("principalIDNS");
-const method = pm.request.method;
   
 
 
@@ -28,6 +27,8 @@ const DEBUG = false;
 
 
 // DO NOT edit anything below this line
+
+const method = pm.request.method;
 
 const debugmessage = function(d, m) {
     if (d) {
